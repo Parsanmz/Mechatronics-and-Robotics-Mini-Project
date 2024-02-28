@@ -9,11 +9,6 @@ time.sleep(1)
 toRad = np.pi/180.0
 toDeg = 1/toRad
 
-# Simulate pong game using VPython here
-
-# Def your function here
-
-
 while True:
     while arduino_data.inWaiting() == 0:
         pass
